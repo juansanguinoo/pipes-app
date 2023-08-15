@@ -37,8 +37,9 @@ export class MenuComponent {
         icon: PrimeIcons.COG,
         items: [
           {
-            label: 'Otro',
+            label: 'Custom Pipes',
             icon: PrimeIcons.COG,
+            routerLink: 'custom',
           },
         ],
       },
